@@ -14,7 +14,7 @@
 
 static unsigned int	f1(long i)
 {
-	unsigned int len;
+	unsigned int	len;
 
 	len = 1;
 	if (i < 0)
@@ -27,11 +27,11 @@ static unsigned int	f1(long i)
 	return (len);
 }
 
-char				*ft_itoa(int i)
+char			*ft_itoa(int i)
 {
-	char			*res;
+	char		*res;
 	unsigned int	len;
-	long			n;
+	long		n;
 
 	n = (long)i;
 	len = f1(n);
