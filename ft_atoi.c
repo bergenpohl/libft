@@ -10,10 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	unsigned long long	i;
-	int					n;
+	int			n;
 
 	i = 0;
 	while ((*str >= 9 && *str <= 13) || *str == 32)
